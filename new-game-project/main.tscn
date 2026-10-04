@@ -93,14 +93,14 @@ transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545
 shadow_enabled = true
 
 [node name="PlayerController" parent="." unique_id=88946456 instance=ExtResource("1_ig7tw")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.959127, 0, 1.25)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -66.83362, 0, 108.51987)
 base_speed = 3.75
 
 [node name="Lantern" parent="." unique_id=1711012922 instance=ExtResource("2_0xm2m")]
 transform = Transform3D(0.3169227, 0, 0.013672791, 0, 0.31721753, 0, -0.013672791, 0, 0.3169227, -2.8058138, 1.2257652, 2.9394248)
 
 [node name="StraightHallwayVar1Combiner" type="CSGCombiner3D" parent="." unique_id=1207046789]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.42986, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.92986, 0, 36.5)
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=88742565]
@@ -152,8 +152,234 @@ size = Vector3(1, 1, 2.75)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -7.625)
 size = Vector3(1, 1, 2.75)
 
+[node name="CSGBox3D12" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=171474055]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, 20)
+size = Vector3(8, 1, 20)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=104989625]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, 20)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="ExitNode2" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=405908869]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.8375002, 30)
+size = Vector3(0.25, 11.25, 8)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=672092227]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 30)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=1328218689]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, 20)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=573791357]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 15.125)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=626993697]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 19.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=99112152]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 24.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=1985070416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 17.125)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=185179280]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 21.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=1817046984]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 26.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="StraightHallwayVar1Combiner" unique_id=628880523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 12.375)
+size = Vector3(1, 1, 2.75)
+
+[node name="StraightHallwayVar1Combiner3" type="CSGCombiner3D" parent="." unique_id=1243726295]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.92986, 0, -20.5)
+use_collision = true
+
+[node name="ExitNode" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=73232900]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.8375002, 10)
+size = Vector3(0.25, 11.25, 8)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1828083814]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 10)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=666503869]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, 20)
+size = Vector3(8, 1, 20)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=117685462]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, 20)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="ExitNode2" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=25862707]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.8375002, 30)
+size = Vector3(0.25, 11.25, 8)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1793831501]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 30)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1543990802]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, 20)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=229800087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 15.125)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=624135563]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 19.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=967728067]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 24.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1513784688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 17.125)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1294503869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 21.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1536743353]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 26.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="StraightHallwayVar1Combiner3" unique_id=1225720137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 12.375)
+size = Vector3(1, 1, 2.75)
+
+[node name="StraightHallwayVar1Combiner2" type="CSGCombiner3D" parent="." unique_id=38413470]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -39.92986, 0, 82.5)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=995887336]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, 0)
+size = Vector3(8, 1, 20)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1902321594]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, -0.125)
+size = Vector3(0.25, 11.25, 20.25)
+
+[node name="ExitNode" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=250871839]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.8375002, 10)
+size = Vector3(0.25, 11.25, 8)
+
+[node name="ExitNode2" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1455927837]
+transform = Transform3D(0.9999999, 0, 2.8810224e-08, 0, 0.29999998, 0, -2.8810224e-08, 0, 0.9999999, 3.875, 1.8375002, 26)
+size = Vector3(0.25, 11.25, 7.5)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1967366752]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 10)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=278288421]
+transform = Transform3D(-0.9999999, 0, 5.8612546e-08, 0, 0.29999998, 0, -5.8612546e-08, 0, -0.9999999, 4, 1.5375003, 26.25)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="ExitNode3" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=794465893]
+transform = Transform3D(0.85072017, 0, -0.5256183, 0, 0.29999998, 0, 0.5256183, 0, 0.85072017, 62.902145, 1.8375002, 28.74907)
+size = Vector3(0.25, 11.25, 7.8061523)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=720417251]
+transform = Transform3D(-0.8507202, 0, 0.52561843, 0, 0.29999998, 0, -0.52561843, 0, -0.8507202, 62.7966, 1.5375003, 29.157677)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1608338214]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, 0)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1389010684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, -4.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1980320772]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, -0.125)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=2142117007]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 4.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1386218517]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 14.125)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1520752016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 18.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1846712016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 0.65, 14.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D23" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1415819607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 0.65, 19.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D24" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=55486929]
+transform = Transform3D(0.7660445, 0, 0.64278764, 0, 1, 0, -0.64278764, 0, 0.7660445, -2.5, 0.65, 27.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=210989752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -2.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=166294201]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 1.875)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1727326738]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 6.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1805276841]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -7.625)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1043115187]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.875, 0.65, -11)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=526674096]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.625, 0.65, -11)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1828175932]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.875, 0.65, -16.75)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=296879857]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.625, 0.65, -16.75)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=147518230]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.875, 0.65, -16.75)
+size = Vector3(1, 1, 2.75)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar1Combiner2" unique_id=1372911322]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.875, 0.65, -16.75)
+size = Vector3(1, 1, 2.75)
+
 [node name="StraightHallwayVar2Combiner" type="CSGCombiner3D" parent="." unique_id=2106212195]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.17986, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.429859, 0, 0)
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar2Combiner" unique_id=857250701]
@@ -331,8 +557,712 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 0)
 [node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar2Combiner" unique_id=1369848010]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 4)
 
+[node name="StraightHallwayVar2Combiner2" type="CSGCombiner3D" parent="." unique_id=2024072454]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.929855, 0, 96.5)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1587917947]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -0.125, 0, 0)
+size = Vector3(12.75, 1, 20)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1933967654]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, -0.875)
+size = Vector3(0.25, 11.25, 18.25)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=386083943]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1381589048]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1988125942]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, -6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=639844063]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D23" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1418074088]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D24" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1469339687]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, -2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D25" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=668530497]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D26" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=167699531]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D27" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=473086282]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, 2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D28" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1207231330]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D29" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=10915566]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D30" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=788717526]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, 6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D31" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=543055152]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D32" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=850928203]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D33" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=988863050]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, 6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D34" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1115390805]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D35" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=899657079]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D36" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=388099569]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, 2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D37" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1624526032]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D38" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=846417073]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D39" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=944963146]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, -2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D40" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=618700352]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D41" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1978208283]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D42" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1682896743]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, -6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=598912972]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 10)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1167759690]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -1.5)
+size = Vector3(0.25, 11.25, 18)
+
+[node name="CSGBox3D43" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=715993376]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -17.875)
+size = Vector3(0.25, 11.25, 0.75)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=489555555]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, -6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1753688304]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, -2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1232976601]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, 2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=2090671804]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, 6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=662275552]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, -6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1579914198]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, -2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1428556688]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, 2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=741672099]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, 6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=409818155]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, -4)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=2102133304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 0)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=928843293]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 4)
+
+[node name="CSGBox3D44" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=559384400]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 8.25)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=388984460]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -4)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=93223542]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 0)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar2Combiner2" unique_id=1693815168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 4)
+
+[node name="StraightHallwayVar2Combiner4" type="CSGCombiner3D" parent="." unique_id=1548128863]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.929855, 0, 129)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1892351005]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -0.125, 0, 1.75)
+size = Vector3(12.75, 1, 16.5)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1742632182]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, -1.9715576)
+size = Vector3(0.25, 11.25, 12.25)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=276142314]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=675204797]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=688267544]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, -6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=830989607]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D23" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=433815693]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D24" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=249581177]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, -2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D25" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1454237668]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D26" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1173840419]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D27" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1509933992]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, 2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D31" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=185354839]
+transform = Transform3D(-0.9964958, -0.0014734601, 0.08349912, -0.002859573, 0.29990742, 0.02467663, -0.083594546, 0.0073054163, -0.9962023, 4.944412, 1.8005005, 7.298691)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D32" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=211782759]
+transform = Transform3D(-0.9964958, -0.0014734601, 0.08349912, -0.002859573, 0.29990742, 0.02467663, -0.083594546, 0.0073054163, -0.9962023, 5.194908, 1.8745303, 4.310074)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D33" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=54533734]
+transform = Transform3D(-0.083499074, -0.0014734601, -0.9964958, -0.02467663, 0.29990742, -0.0028595743, 0.9962023, 0.0073054163, -0.0835945, 6.315281, 1.8410898, 5.9088745)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D34" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1196046346]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D35" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=591232577]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D36" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=94239562]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, 2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D37" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=89364453]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D38" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1674746889]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D39" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1007820826]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, -2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D40" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=229470139]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D41" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1322138793]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D42" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1744851265]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, -6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1726287822]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 10)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=467726274]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -2)
+size = Vector3(0.25, 11.25, 12)
+
+[node name="CSGBox3D43" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=289929075]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -17.875)
+size = Vector3(0.25, 11.25, 0.75)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1501536243]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, -6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1419999768]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, -2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=338258343]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, 2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1227167214]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, -6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=354796671]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, -2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=916819273]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, 2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1305756077]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, -4)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=2084923819]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 0)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=915339768]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 4)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=522140238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -4)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=1860170638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 0)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=2027190431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 4)
+
+[node name="CSGBox3D28" type="CSGBox3D" parent="StraightHallwayVar2Combiner4" unique_id=506886667]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -2.5, 0.65, 8)
+
+[node name="StraightHallwayVar2Combiner5" type="CSGCombiner3D" parent="." unique_id=2131764912]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.929855, 0, 145)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1051584505]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -0.125, 0, 1.75)
+size = Vector3(12.75, 1, 16.5)
+
+[node name="CSGBox3D34" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1370333794]
+transform = Transform3D(-0.9396927, 0, 0.34202003, 0, 0.3, 0, -0.34202003, 0, -0.9396927, 1.932476, 1.8375001, 2.6067657)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D35" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=398038525]
+transform = Transform3D(-0.9396927, 0, 0.34202003, 0, 0.3, 0, -0.34202003, 0, -0.9396927, 2.958538, 1.8375001, -0.21231079)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D36" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1507240418]
+transform = Transform3D(-0.34202, 0, -0.9396927, 0, 0.3, 0, 0.9396927, 0, -0.34202, 3.6201248, 1.8375001, 1.6247559)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D37" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1051458973]
+transform = Transform3D(-0.9659258, 0, 0.25881895, 0, 0.3, 0, -0.25881895, 0, -0.9659258, 3.2078667, 1.8375001, -1.1611023)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D38" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=263518610]
+transform = Transform3D(-0.9659258, 0, 0.25881895, 0, 0.3, 0, -0.25881895, 0, -0.9659258, 3.9843254, 1.8375001, -4.0588837)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D39" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=383486001]
+transform = Transform3D(-0.25881892, 0, -0.9659259, 0, 0.3, 0, 0.9659259, 0, -0.25881892, 4.803505, 1.8375001, -2.2864685)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D40" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1674675476]
+transform = Transform3D(-0.9848077, 0, 0.17364809, 0, 0.3, 0, -0.17364809, 0, -0.9848077, 4.2829437, 1.8375001, -4.838501)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D41" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1190952578]
+transform = Transform3D(-0.9848077, 0, 0.17364809, 0, 0.3, 0, -0.17364809, 0, -0.9848077, 4.80389, 1.8375001, -7.792923)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D42" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=430643257]
+transform = Transform3D(-0.17364804, 0, -0.9848077, 0, 0.3, 0, 0.9848077, 0, -0.17364804, 5.7744255, 1.8375001, -6.098648)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1678661426]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 10)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1919960569]
+transform = Transform3D(0.9848077, 0, -0.17364818, 0, 0.3, 0, 0.17364818, 0, 0.9848077, 3.2519073, 1.8375002, -6.44252)
+size = Vector3(0.25, 11.25, 3.75)
+
+[node name="CSGBox3D47" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1636903824]
+transform = Transform3D(0.9961947, 0, -0.08715576, 0, 0.3, 0, 0.08715576, 0, 0.9961947, 3.7124557, 1.8375002, -10.143051)
+size = Vector3(0.25, 11.25, 3.75)
+metadata/_edit_group_ = true
+
+[node name="CSGBox3D44" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=264868217]
+transform = Transform3D(0.96592575, 0, -0.25881904, 0, 0.3, 0, 0.25881904, 0, 0.96592575, 2.4504356, 1.8375002, -2.793869)
+size = Vector3(0.25, 11.25, 3.75)
+metadata/_edit_group_ = true
+
+[node name="CSGBox3D45" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1163485470]
+transform = Transform3D(0.93969256, 0, -0.34202015, 0, 0.3, 0, 0.34202015, 0, 0.93969256, 1.3339539, 1.8375002, 0.73524475)
+size = Vector3(0.25, 11.25, 3.75)
+metadata/_edit_group_ = true
+
+[node name="CSGBox3D43" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1213616619]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -17.875)
+size = Vector3(0.25, 11.25, 0.75)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1407232384]
+transform = Transform3D(0.9848077, 0, -0.17364818, 0, 0.3, 0, 0.17364818, 0, 0.9848077, 3.2713737, 1.6500002, -6.5400085)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D48" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1480687153]
+transform = Transform3D(0.9961947, 0, -0.08715576, 0, 0.3, 0, 0.08715576, 0, 0.9961947, 3.7103004, 1.6500002, -10.243378)
+operation = 2
+size = Vector3(1, 10, 2)
+metadata/_edit_group_ = true
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1506886400]
+transform = Transform3D(0.9659258, 0, -0.25881904, 0, 0.3, 0, 0.25881904, 0, 0.9659258, 2.348442, 1.6500002, -2.9443054)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=852632539]
+transform = Transform3D(0.9396926, 0, -0.34202012, 0, 0.3, 0, 0.34202012, 0, 0.9396926, 1.3903351, 1.6500002, 0.58540344)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D46" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=611699520]
+transform = Transform3D(0.99147516, 0, 0.13029516, 0, 0.29999998, 0, -0.13029516, 0, 0.99147516, -5.018181, 1.8375001, -11.46843)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D49" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=705300631]
+transform = Transform3D(0.99147516, 0, 0.13029516, 0, 0.29999998, 0, -0.13029516, 0, 0.99147516, -4.6272964, 1.8375001, -8.494003)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D50" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=447772252]
+transform = Transform3D(-0.13029522, 0, 0.99147516, 0, 0.29999998, 0, -0.99147516, 0, -0.13029522, -6.0620804, 1.8375001, -9.818344)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D51" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=2021286637]
+transform = Transform3D(0.9763463, 0, 0.2162121, 0, 0.29999998, 0, -0.2162121, 0, 0.9763463, -4.410576, 1.8375001, -7.5372314)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D52" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=656091771]
+transform = Transform3D(0.9763463, 0, 0.2162121, 0, 0.29999998, 0, -0.2162121, 0, 0.9763463, -3.7619324, 1.8375001, -4.6082)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D53" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1623453386]
+transform = Transform3D(-0.21621214, 0, 0.9763464, 0, 0.29999998, 0, -0.9763464, 0, -0.21621214, -5.306694, 1.8375001, -5.8024445)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D54" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1494642738]
+transform = Transform3D(0.9537869, 0, 0.30048352, 0, 0.29999998, 0, -0.30048352, 0, 0.9537869, -3.667015, 1.8375001, -3.7787628)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D55" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=531644126]
+transform = Transform3D(0.9537869, 0, 0.30048352, 0, 0.29999998, 0, -0.30048352, 0, 0.9537869, -2.7655716, 1.8375001, -0.9173889)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D56" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1817118215]
+transform = Transform3D(-0.30048358, 0, 0.9537869, 0, 0.29999998, 0, -0.9537869, 0, -0.30048358, -4.408531, 1.8375001, -1.9724731)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1682793476]
+transform = Transform3D(-0.953787, 0, -0.30048347, 0, 0.29999998, 0, 0.30048347, 0, -0.953787, -2.03479, 1.8375002, -2.9038544)
+size = Vector3(0.25, 11.25, 3.5986328)
+
+[node name="CSGBox3D58" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1524883675]
+transform = Transform3D(-0.9763464, 0, -0.21621199, 0, 0.3, 0, 0.21621199, 0, -0.9763464, -2.985054, 1.8375002, -6.4383698)
+size = Vector3(0.25, 11.25, 3.75)
+metadata/_edit_group_ = true
+
+[node name="CSGBox3D59" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=2100281310]
+transform = Transform3D(-0.99147516, 0, -0.13029501, 0, 0.3, 0, 0.13029501, 0, -0.99147516, -3.623436, 1.8375002, -10.084412)
+size = Vector3(0.25, 11.25, 3.75)
+metadata/_edit_group_ = true
+
+[node name="CSGBox3D31" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1594699130]
+transform = Transform3D(-0.953787, 0, -0.30048347, 0, 0.29999998, 0, 0.30048347, 0, -0.953787, -1.9843216, 1.6500002, -2.736206)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D32" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=591024654]
+transform = Transform3D(-0.9763464, 0, -0.216212, 0, 0.29999998, 0, 0.216212, 0, -0.9763464, -2.8251343, 1.6500002, -6.3519897)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D33" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1927569315]
+transform = Transform3D(-0.99147516, 0, -0.13029507, 0, 0.29999998, 0, 0.13029507, 0, -0.99147516, -3.6042862, 1.6500002, -9.925461)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1246900388]
+transform = Transform3D(0.76604444, 0, -0.6427876, 0, 1, 0, 0.6427876, 0, 0.76604444, 2.5, 0.65, -8.5)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1632924229]
+transform = Transform3D(0.76604444, 0, -0.6427876, 0, 1, 0, 0.6427876, 0, 0.76604444, 1.75, 0.65, -5)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=795103654]
+transform = Transform3D(0.76604456, 0, 0.64278764, 0, 1, 0, -0.64278764, 0, 0.76604456, 0.75, 0.65, -0.75)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=144968055]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 0)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=316267851]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.75, 0.65, -4.5)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="StraightHallwayVar2Combiner5" unique_id=1633330725]
+transform = Transform3D(0.9659258, 0, 0.25881904, 0, 0.3, 0, -0.25881904, 0, 0.9659258, -4.164398, 1.6500002, -2.2992554)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="StraightHallwayVar2Combiner3" type="CSGCombiner3D" parent="." unique_id=766164495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.929855, 0, 112.75)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=834880164]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -0.125, 0, 1.75)
+size = Vector3(12.75, 1, 16)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=843664215]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, 0.125)
+size = Vector3(0.25, 11.25, 16.25)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1882850000]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1171223231]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1930924882]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, -6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=568405049]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D23" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1102449669]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, -0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D24" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=861291235]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, -2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D25" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=2145234859]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D26" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=957012049]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D27" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1887917792]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, 2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D28" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1009779941]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D29" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1031323552]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -5.25, 1.8375001, 7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D30" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1508978438]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.3, 0, -1, 0, -4.371139e-08, -6.5, 1.8375001, 6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D31" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=84704546]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D32" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1842845070]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D33" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1223224404]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, 6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D34" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=206040970]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D35" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1049789156]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, 0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D36" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=677218006]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, 2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D37" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=265819546]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -0.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D38" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=430002297]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -3.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D39" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1346452880]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, -2)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D40" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=524988621]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -4.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D41" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1309261069]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.3, 0, 8.742278e-08, 0, -1, 5.166668, 1.8375001, -7.5)
+size = Vector3(2.5, 11.25, 0.25)
+
+[node name="CSGBox3D42" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=837281940]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 0.3, 0, 1, 0, 1.3113416e-07, 6.416668, 1.8375001, -6)
+size = Vector3(3.25, 11.25, 0.25)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=2052177350]
+transform = Transform3D(-1.4901161e-08, 0, -0.9999999, 0, 0.29999998, 0, 0.9999999, 0, -1.4901161e-08, 0, 1.5375003, 10)
+operation = 2
+size = Vector3(0.5, 9.25, 2)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1776434150]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -0.25)
+size = Vector3(0.25, 11.25, 17)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=93533674]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, -6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=601850161]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, -2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=70881621]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, 2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1412677935]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.6500002, 6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1358132151]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, -6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=256164858]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, -2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=2089790001]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, 2)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1156589408]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -4.125, 1.6500002, 6)
+operation = 2
+size = Vector3(1, 10, 2)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1741051066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, -4)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=2025711718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 0)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1706027098]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 4)
+
+[node name="CSGBox3D44" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1669076100]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 0.65, 8)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=590251471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -4)
+
+[node name="CSGBox3D43" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=417003493]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, -8.25)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=90455492]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 0)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1957788651]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 4)
+
+[node name="CSGBox3D45" type="CSGBox3D" parent="StraightHallwayVar2Combiner3" unique_id=1610022981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.65, 8.25)
+
 [node name="RightTurnHallwayCombiner" type="CSGCombiner3D" parent="." unique_id=1224348488]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.92986, 0, 8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.92986, 0, 84.5)
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="RightTurnHallwayCombiner" unique_id=1168205037]
@@ -348,11 +1278,31 @@ transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -8)
 size = Vector3(0.25, 11.25, 20)
 
 [node name="CSGBox3D6" type="CSGBox3D" parent="RightTurnHallwayCombiner" unique_id=506400445]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 0.3, 0, 1, 0, -4.371139e-08, -0.0625, 1.8375002, 1.875)
+size = Vector3(0.25, 11.25, 7.875)
+
+[node name="RightTurnHallwayCombiner2" type="CSGCombiner3D" parent="." unique_id=613553599]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.42986, 0, 8)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="RightTurnHallwayCombiner2" unique_id=67996846]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, -8)
+size = Vector3(8, 1, 20)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="RightTurnHallwayCombiner2" unique_id=1915352441]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375001, -12)
+size = Vector3(0.25, 11.25, 12)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="RightTurnHallwayCombiner2" unique_id=645469572]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375002, -8)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="RightTurnHallwayCombiner2" unique_id=1752135323]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 0.3, 0, 1, 0, -4.371139e-08, -0.0625, 1.8375002, 2)
 size = Vector3(0.25, 11.25, 7.875)
 
 [node name="LeftTurnHallwayCombiner" type="CSGCombiner3D" parent="." unique_id=1390874206]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52.92986, 0, 8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.42986, 0, 8)
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="LeftTurnHallwayCombiner" unique_id=747186496]
@@ -368,5 +1318,25 @@ transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375002, -8)
 size = Vector3(0.25, 11.25, 20)
 
 [node name="CSGBox3D6" type="CSGBox3D" parent="LeftTurnHallwayCombiner" unique_id=851262916]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 0.3, 0, 1, 0, -4.371139e-08, -0.0625, 1.8375002, 1.875)
+size = Vector3(0.25, 11.25, 8.125)
+
+[node name="LeftTurnHallwayCombiner2" type="CSGCombiner3D" parent="." unique_id=331293262]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -67.929855, 0, 82.5)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="LeftTurnHallwayCombiner2" unique_id=110927183]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, -8)
+size = Vector3(8, 1, 20)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="LeftTurnHallwayCombiner2" unique_id=1081030976]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, 3.875, 1.8375001, -11.875008)
+size = Vector3(0.25, 11.25, 12.25)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="LeftTurnHallwayCombiner2" unique_id=2087643311]
+transform = Transform3D(1, 0, 0, 0, 0.3, 0, 0, 0, 1, -3.875, 1.8375002, -8)
+size = Vector3(0.25, 11.25, 20)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="LeftTurnHallwayCombiner2" unique_id=180440962]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 0.3, 0, 1, 0, -4.371139e-08, -0.0625, 1.8375002, 1.875)
 size = Vector3(0.25, 11.25, 8.125)
